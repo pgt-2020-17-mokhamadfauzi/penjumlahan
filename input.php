@@ -34,13 +34,10 @@
     }elseif ($c >10 && $c <= 20) {
         echo "Anda Mendapat B";
        	$ket = "B";
-    }elseif ($c >20 && $c <= 30) {
+    }elseif ($c >20 ) {
         echo "Anda Mendapat C";
        	$ket = "C";
-     }elseif ($c >30 && $c <= 40) {
-        echo "Anda Mendapat D";
-       	$ket = "D";
-     }elseif ($c >40 && $c <= 50) {
+     }elseif ($c < 0 ) {
         echo "Anda Mendapat D";
        	$ket = "D";
      }
@@ -76,13 +73,10 @@
     }elseif ($c >10 && $c <= 20) {
         echo "Anda Mendapat B";
        	$ket = "B";
-    }elseif ($c >20 && $c <= 30) {
+    }elseif ($c >20 ) {
         echo "Anda Mendapat C";
        	$ket = "C";
-     }elseif ($c >30 && $c <= 40) {
-        echo "Anda Mendapat D";
-       	$ket = "D";
-     }elseif ($c >40 && $c <= 50) {
+     }elseif ($c < 0 ) {
         echo "Anda Mendapat D";
        	$ket = "D";
      }
